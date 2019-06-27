@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="进程管理">
+      <UniqueIdentifier>{f1d351ee-fb90-4e41-a31e-efc0f5e59953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主界面切换">
+      <UniqueIdentifier>{a829146a-52bd-4335-a94e-91330935bfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE信息">
+      <UniqueIdentifier>{b6f1ada3-ce40-42ad-9354-d3c36b56a714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内存优化">
+      <UniqueIdentifier>{74848573-cdc5-450e-992d-931db7940283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="启动项和软件卸载">
+      <UniqueIdentifier>{17a04980-e24c-4d25-b36c-39703db35f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杀毒">
+      <UniqueIdentifier>{16d59798-baf6-4fdd-afa4-db95f241a836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE文件6个表">
+      <UniqueIdentifier>{ada531ce-296b-4fd7-b86a-43d30bd6d9dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Safe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>主界面切换</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInfo.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInfoFile.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>主界面切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Antivirus.h">
+      <Filter>主界面切换</Filter>
+    </ClInclude>
+    <ClInclude Include="PEInFo.h">
+      <Filter>PE信息</Filter>
+    </ClInclude>
+    <ClInclude Include="PESection.h">
+      <Filter>PE信息</Filter>
+    </ClInclude>
+    <ClInclude Include="PERVAtoFOA.h">
+      <Filter>PE信息</Filter>
+    </ClInclude>
+    <ClInclude Include="PETime.h">
+      <Filter>PE信息</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDirectory.h">
+      <Filter>PE信息</Filter>
+    </ClInclude>
+    <ClInclude Include="PEImport.h">
+      <Filter>PE文件6个表</Filter>
+    </ClInclude>
+    <ClInclude Include="PEPxport.h">
+      <Filter>PE文件6个表</Filter>
+    </ClInclude>
+    <ClInclude Include="PEResource.h">
+      <Filter>PE文件6个表</Filter>
+    </ClInclude>
+    <ClInclude Include="PERelocation.h">
+      <Filter>PE文件6个表</Filter>
+    </ClInclude>
+    <ClInclude Include="PETLS.h">
+      <Filter>PE文件6个表</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUDDRInfo.h">
+      <Filter>内存优化</Filter>
+    </ClInclude>
+    <ClInclude Include="DesktopWindow.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Clean.h">
+      <Filter>内存优化</Filter>
+    </ClInclude>
+    <ClInclude Include="Software.h">
+      <Filter>启动项和软件卸载</Filter>
+    </ClInclude>
+    <ClInclude Include="Run.h">
+      <Filter>启动项和软件卸载</Filter>
+    </ClInclude>
+    <ClInclude Include="Services.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>杀毒</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiScan.h">
+      <Filter>杀毒</Filter>
+    </ClInclude>
+    <ClInclude Include="CPEDelay.h">
+      <Filter>PE文件6个表</Filter>
+    </ClInclude>
+    <ClInclude Include="MyList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Safe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>主界面切换</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessInfo.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessInfoFile.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Antivirus.cpp">
+      <Filter>主界面切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>主界面切换</Filter>
+    </ClCompile>
+    <ClCompile Include="PEInFo.cpp">
+      <Filter>PE信息</Filter>
+    </ClCompile>
+    <ClCompile Include="PESection.cpp">
+      <Filter>PE信息</Filter>
+    </ClCompile>
+    <ClCompile Include="PERVAtoFOA.cpp">
+      <Filter>PE信息</Filter>
+    </ClCompile>
+    <ClCompile Include="PETime.cpp">
+      <Filter>PE信息</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDirectory.cpp">
+      <Filter>PE信息</Filter>
+    </ClCompile>
+    <ClCompile Include="PEImport.cpp">
+      <Filter>PE文件6个表</Filter>
+    </ClCompile>
+    <ClCompile Include="PEPxport.cpp">
+      <Filter>PE文件6个表</Filter>
+    </ClCompile>
+    <ClCompile Include="PEResource.cpp">
+      <Filter>PE文件6个表</Filter>
+    </ClCompile>
+    <ClCompile Include="PERelocation.cpp">
+      <Filter>PE文件6个表</Filter>
+    </ClCompile>
+    <ClCompile Include="PETLS.cpp">
+      <Filter>PE文件6个表</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUDDRInfo.cpp">
+      <Filter>内存优化</Filter>
+    </ClCompile>
+    <ClCompile Include="DesktopWindow.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Clean.cpp">
+      <Filter>内存优化</Filter>
+    </ClCompile>
+    <ClCompile Include="Run.cpp">
+      <Filter>启动项和软件卸载</Filter>
+    </ClCompile>
+    <ClCompile Include="Software.cpp">
+      <Filter>启动项和软件卸载</Filter>
+    </ClCompile>
+    <ClCompile Include="Services.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>杀毒</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiScan.cpp">
+      <Filter>杀毒</Filter>
+    </ClCompile>
+    <ClCompile Include="CPEDelay.cpp">
+      <Filter>PE文件6个表</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Safe.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Safe.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Safe.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
